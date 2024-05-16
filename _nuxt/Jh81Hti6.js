@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,a as c}from"./DzqBbVoj.js";const o={},a=c("h1",null,"This is the Meet the team page",-1),n=[a];function _(r,i){return s(),t("div",null,n)}const d=e(o,[["render",_]]);export{d as default};
