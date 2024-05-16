@@ -14,7 +14,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
               euismod odio, gravida pellentesque urna varius vitae.
             </p>
-            <NuxtLink to="/team/about-team" class="bg-indigo-500 text-white py-4 px-12 rounded-full hover:bg-indigo-600">Meet the team</NuxtLink>
+            <NuxtLink to="/team/about-team" class="btn-primary">Meet the team</NuxtLink>
           </div>
           <div class="w-1/2 pl-16">
             <img src="https://source.unsplash.com/random?ux" class="h-64 w-full object-cover rounded-xl" alt="Layout Image">

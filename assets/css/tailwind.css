@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-primary {
+        @apply py-4 px-12 bg-primary-500 rounded-full hover:bg-primary-300 text-white font-semibold transition-transform hover:translate-y-2 ease-in-out;
+    }
+
+}
+
+@layer utilities {
+
+    .bg-dots {
+        @apply pattern-dots pattern-primary-800 pattern-bg-gray-900 pattern-size-6 pattern-opacity-100;
+    }
+    .bg-gif {
+        /*background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTg5Z2tvYzVmNTFpbjNraWllZm9pMXo4djVodWl2M2ZlZDF6Z2VhMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YZpzNRrTOcYwM/giphy.gif');*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .synopsis__paragraph {
+        @apply mt-1 text-neutral-400 text-pretty;
+    }
+
+}

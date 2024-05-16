@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import CardTeamOpc1 from "~/components/sections/team/CardTeamOpc1.vue";
+import CardTeamOpc1 from "~/components/sections/team/CardTeam.vue";
 
 const links =[
   { name: 'twitter', url: '#' },
@@ -51,10 +51,10 @@ const data = [
       <!-- end section header -->
       <!-- row -->
       <div class="flex flex-wrap flex-row -mx-4 justify-center">
-        <CardTeamOpc1 v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
-        <CardTeamOpc1 v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
-        <CardTeamOpc1 v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
-        <CardTeamOpc1 v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
+        <CardTeam v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
+        <CardTeam v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
+        <CardTeam v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
+        <CardTeam v-for="(item, index) in data" :key="index" :name="item.name" :role="item.role" :image="item.image" :links="item.links" />
       </div>
     </div>
   </section>

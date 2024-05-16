@@ -9,6 +9,8 @@
       <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Request a screening</h2>
       <p class="mt-1 text-neutral-400">Si estas interesado en que grabemos tu proximo evento, no dudes en rellenar este formulario</p>
     </div>
+
+    <SectionsContactUsRequestScreenForm/>
   </div>
 </section>
 </template>
