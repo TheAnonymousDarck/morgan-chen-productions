@@ -9,7 +9,7 @@ const toggleNav = () => {
 </script>
 
 <template>
-  <div class="sticky bg-primary-500">
+  <div class="sticky bg-primary-500 z-50">
     <nav class="flex items-center bg-gray-800 p-3 flex-wrap">
 
       <NuxtLink class="text-white p-2 mr-4 inline-flex items-center" to="/" aria-label="Logo">Logo</NuxtLink>
@@ -27,7 +27,7 @@ const toggleNav = () => {
           <NuxtLink class="link__nav" to="/team/about-team">About the team</NuxtLink>
           <NuxtLink class="link__nav" to="/contact/request-screening">Request a screening</NuxtLink>
           <NuxtLink class="link__nav" to="/contact">Contact us</NuxtLink>
-          <CommonsDropdown title="Link 1">
+          <CommonsDropdown title="Link 1" #default="{ closeDropdown }">
             <CommonsDropdownLink name="meet the team" to="/team/meet-team"/>
           </CommonsDropdown>
 

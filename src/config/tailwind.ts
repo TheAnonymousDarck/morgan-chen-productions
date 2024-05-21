@@ -1,11 +1,13 @@
 import type { Config } from 'tailwindcss'
 import typography from '@tailwindcss/typography'
+import forms from '@tailwindcss/forms'
 import colors from 'tailwindcss/colors'
 
 export default <Partial<Config>> {
     content: [],
     plugins: [
         typography(),
+        forms(),
         require('tailwindcss-bg-patterns'),
     ],
     theme: {

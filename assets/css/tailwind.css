@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 
+@layer base {
+    input{
+        @apply  rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-gray-800;
+    }
+}
+
 @layer components {
     .btn-primary {
         @apply py-4 px-12 bg-primary-500 rounded-full hover:bg-primary-300 text-white font-semibold transition-transform hover:translate-y-2 ease-in-out;
+    }
+
+    .btn-primary-sm {
+        @apply py-2 px-8 bg-primary-500 rounded-full hover:bg-primary-300 text-white font-semibold transition-transform hover:translate-y-2 ease-in-out;
     }
 
 }

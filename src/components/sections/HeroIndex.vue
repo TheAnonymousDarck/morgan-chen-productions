@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <div class="h-screen bg-neutral-600 opacity-80 flex items-center bg-cover bg-center py-32 w-full" style="background-image: url('https://source.unsplash.com/random');">
     <section class="bg-cover bg-center py-32 w-full">
@@ -23,9 +19,4 @@
       </div>
     </section>
   </div>
-
 </template>
-
-<style scoped>
-
-</style>

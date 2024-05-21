@@ -13,8 +13,6 @@ definePageMeta({
       <SectionsTrailer/>
       <SectionsGuide/>
       <SectionsEventsUpcoming/>
-<!--      <SectionsContactUsRequestScreen />-->
-<!--      <SectionsTeamOurTeam/>-->
       <SectionsContactUs />
     </div>
 </template>
