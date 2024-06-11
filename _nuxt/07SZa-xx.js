@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as t,a as c}from"./C10SjZAN.js";const o={},n=c("h1",null,"This is the press page",-1),a=[n];function r(_,i){return t(),s("div",null,a)}const d=e(o,[["render",r]]);export{d as default};
