@@ -2,7 +2,7 @@
   <div>
     <Toaster  richColors  />
     <div class="min-h-screen antialiased bg-gif">
-      <Navbar />
+      <NavbarNav />
       <main>
         <slot />
       </main>

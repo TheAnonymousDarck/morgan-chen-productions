@@ -3,8 +3,8 @@
 export default defineNuxtConfig({
   router: {
     options: {
-        linkActiveClass: 'link__active',
-        linkExactActiveClass: 'link__exact__active',
+        // linkActiveClass: 'link__active',
+        // linkExactActiveClass: 'link__exact__active',
     }
   },
   build: {

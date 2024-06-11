@@ -6,5 +6,5 @@ export interface DropdownProps {
 
 export interface DropdownLinkProps {
     href: string,
-    as: string
+    as?: string
 }
