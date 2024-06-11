@@ -1,16 +1,21 @@
 <script setup lang="ts">
+import type {DropdownLinkProps} from "~/interfaces";
 
-const props = defineProps<{
-  name: string,
-  to: string,
-}>();
-
+const props = defineProps<DropdownLinkProps>();
 </script>
 
 <template>
-  <NuxtLink :to="props.to" class="hover:bg-gray-900 hover:text-white block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-    {{ props.name }}
-  </NuxtLink>
+  <div>
+    <button v-if="props.as === 'button'" type="submit" class="block w-full px-4 py-2 text-start text-sm leading-5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out">
+      <slot />
+    </button>
+
+    <a v-else-if="props.as ==='a'" :href="props.href" class="block px-4 py-2 text-sm leading-5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out">
+      <slot />
+    </a>
+
+    <NuxtLink v-else :to="props.href" class="block px-4 py-2 text-sm leading-5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out">
+      <slot />
+    </NuxtLink>
+  </div>
 </template>
-
-

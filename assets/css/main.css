@@ -1,0 +1,9 @@
+
+
+.link__active{
+    @apply border-b-2  border-primary-900 text-white;
+}
+
+.link__exact__active{
+    @apply text-white;
+}

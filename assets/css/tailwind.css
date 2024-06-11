@@ -4,9 +4,10 @@
 
 
 @layer base {
-    input{
-        @apply  rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-gray-800;
-    }
+    /*input{*/
+    /*    @apply  rounded-2xl;*/
+    /*}*/
+
 }
 
 @layer components {
@@ -35,5 +36,7 @@
     .synopsis__paragraph {
         @apply mt-1 text-neutral-400 text-pretty;
     }
+
+
 
 }
