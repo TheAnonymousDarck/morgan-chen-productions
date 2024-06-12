@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-neutral-600 opacity-80 flex items-center bg-cover bg-center py-32 w-full" style="background-image: url('https://source.unsplash.com/random');">
+  <CommonsHero img="https://source.unsplash.com/random">
     <section class="bg-cover bg-center py-32 w-full">
 <!--      <section class="bg-cover bg-center py-32 w-full" style="background-image: url('https://source.unsplash.com/random');">-->
       <div class="container mx-auto text-left text-white max-w-5xl px-4 xl:px-0 py-10 lg:py-20">
@@ -18,5 +18,5 @@
         </div>
       </div>
     </section>
-  </div>
+  </CommonsHero>
 </template>
